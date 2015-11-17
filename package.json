@@ -1,0 +1,24 @@
+{
+  "name": "simple-pubsub",
+  "version": "0.1.0",
+  "description": "Simple pub sub utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandanand84/simple-pubsub.git"
+  },
+  "keywords": [
+    "pubsub",
+    "design",
+    "pattern"
+  ],
+  "author": "Anand Aravindan <anand.anand84@gmail.com> (traderslab.in)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandanand84/simple-pubsub/issues"
+  },
+  "homepage": "https://github.com/anandanand84/simple-pubsub#readme"
+}
