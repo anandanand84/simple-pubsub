@@ -16,7 +16,7 @@ npm install --save simple-pubsub
 
  var pubsub = require('simple-pubsub');
   
-  var subscriberId = pubsub.subscribe('topic',function callback(data){
+  var subscriberId = pubsub.subscribe('topic',function callback(topic,data){
        console.log(data);
    });
 
