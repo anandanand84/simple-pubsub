@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/anandanand84/simple-pubsub/issues"
   },
-  "homepage": "https://github.com/anandanand84/simple-pubsub#readme"
+  "homepage": "https://github.com/anandanand84/simple-pubsub#readme",
+  "dependencies": {
+    "entry-empty-emitter": "^1.0.3"
+  }
 }
