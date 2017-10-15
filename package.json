@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/anandanand84/simple-pubsub#readme",
   "dependencies": {
-    "entry-empty-emitter": "^1.0.3"
+    "entry-empty-emitter": "^1.0.5"
   }
 }
