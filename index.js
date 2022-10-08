@@ -1,5 +1,17 @@
 var EntryEmptyEmitter = require('entry-empty-emitter');
-const util = require('util');
+
+function inherits(ctor, superCtor) {
+  ctor.super_ = superCtor;
+  ctor.prototype = Object.create(superCtor.prototype, {
+    constructor: {
+      value: ctor,
+      enumerable: false,
+      writable: true,
+      configurable: true
+    }
+  });
+};
+
 
 function PubSub() {
   "use strict";
@@ -8,7 +20,7 @@ function PubSub() {
   this.subUid = -1;
 }
 
-util.inherits(PubSub, EntryEmptyEmitter);
+inherits(PubSub, EntryEmptyEmitter);
 
 PubSub.prototype.publish = function (topic, args) {
   if (!this.topics[topic]) {
