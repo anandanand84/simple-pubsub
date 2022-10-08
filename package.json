@@ -1,6 +1,6 @@
 {
   "name": "simple-pubsub",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Simple pub sub utility",
   "main": "index.js",
   "types": "index.d.ts",
